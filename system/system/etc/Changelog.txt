@@ -1,0 +1,79 @@
+RiceDroid Update Changelogs
+Rice Code: 5.0
+Rice Version: Halo Halo - a Filipino dessert made with mixed fruit, boiled sweetened white beans, milk, and shaved ice, typically topped with purple yam, crème caramel, and ice cream.
+
+Legend:
+[] = Credits and thanks to
+UR = User's Requests
+MR = Maintainer's Request 
+CP = Cherry-pick changes under ricedroid additions
+MD = Co-authored/partly modified/minor code changes
+AOSP = Cherry-pick changes from AOSP gerrit/master branch
+
+===== Start of Changelog for version 5.0 =====
+
+==== riceDroid Additions ===== changes we did or modified
+* Adapted CAF/CLO revisions to AOSP
+* Added back Lockscreen Blur Media Filters [eldainosor]
+ - [MD]: Make blur radius configurable
+* Dialer Improvements:
+- Improved Design based on google's M3 design
+- [CP]: Crowdin updates [gwolf2u]
+* Fixed statusbar, keyguard and QSB paddings
+* Improved Dashboard Styles
+- automatically detects if build variant (vanilla/pixel)
+- Added AOSP style
+- Fixed Arcane Style usercard avatar
+* Introducing System Color Palettes
+  - extended monet altering themes with two modes: Black theme and Vivid theme [SagarMakhar - blacktheme overlay]
+  - notes: quite buggy atm, vivid theme can only be set while on light mode (but works and persists on dark mode)
+  - black theme: only for dark mode
+  - vivid theme: Improved color palettes [kdrag0n]
+* Minor monet chroma improvements
+* Minor Volume Panel redesign
+* [MD] Resizeable QS Date, QS and Statusbar clock [StarkDroid|Corvus-AOSP]
+* [AOSP][CP][MD] runtime improvements and August ASB patches from master branch [neobuddy89|crdroid team|lineageos]
+* [MD] Statusbar Clock background chip [StarkDroid|Corvus-AOSP]
+* [MD] Statusbar paddings customizations [IDontCare-05|CrisbalGreece]
+* SushiLauncher: Spicy Tuna
+  - Increased max allowed blur radius
+  - [CP] restore blur on configuration changes [ritujb]
+  - Fixed recents apps resources tint
+  - Applied google M3 color shades
+  - Redesign QuickSearchBar [teamfiles - for the pixel launcher mod concept]
+* Switched to glassy blur effect for background views, recents etc 
+* System Shapes: Improved theming support
+* Toggle-able Translucent QS style [Project Fluid|elluzion|Androbuddy]
+* Translation support improvements 
+ - added turkish translations [Lafactorial]
+ - added chinese translations [xingxingchuan|Fldicoahkiin]
+ - made more strings translatable ~ if you want it to be merged to the source please send a message to the group with #translation with url of your repo, we will cherrypick it and add it to source for you with authorship intact (our crowdin is limited).
+
+==== Cherry-picked features Additions ==== purely cherry-picked changes we didnt modified
+* crDroid August Upstream changes [neobuddy89|gwolf2u|iusmac|shevt]
+- Android runtime Improvements and fixes
+- Fixed navigation bar theming
+- Fixed handwave & proximity pulse conflict
+- Crowdin Translations
+* Fixed Power menu systemUI restart showing dialog when restarting [ezio84]
+* LineageOS August Upstream changes [luk1337|althafvly|bgcngm|sevenrock|chirayudesai|stricted|mikeNg|haggertk]
+- August ASB patches
+- Lineage dependencies upstream (HALS, blobs, sepolicy more)
+_ Lineage translations updates
+_ Lineage frameworks patches and improvements
+* Show August security patch on settings [jhenrique|PixelExperience] 
+* Show ripple on face unlock [xyzuan|xdroid OSS]
+* Fix user profile photo picker crash [tmjosten|Evolution X]
+* Switch notification background to monet on heads up [DillerOFire|Project Fluid]
+
+Big thanks to pimpmaneaton for these fork changes merged on main branch:
+* Big dotted/circle battery indicator [DennySPB]
+* ColorController: Fix getting default color [varund7726]
+* Lockscreen charging improvements [calebcabob|SagarMakhar]
+* Pulse improvements [TikkiX2|ezio84] 
+* QuickSettings vibrate/haptic feedback [mydongistiny|amartinz]
+* Screenshot shutter sound toggle [maxwen]
+
+===== End of Changelog for version 5.0 =====
+
+PS: if we missed some credits please let us know! Have a nice day.

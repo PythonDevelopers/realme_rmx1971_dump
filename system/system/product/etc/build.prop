@@ -1,0 +1,62 @@
+####################################
+# from device/realme/sdm710-common/product.prop
+####################################
+# LMKD
+ro.lmk.low=1001
+ro.lmk.medium=800
+ro.lmk.critical=0
+ro.lmk.critical_upgrade=false
+ro.lmk.upgrade_pressure=100
+ro.lmk.downgrade_pressure=100
+ro.lmk.log_stats=true
+# Blur
+ro.surface_flinger.supports_background_blur=1
+ro.sf.blurs_are_expensive=1
+# Dex
+ro.sys.fw.dex2oat_thread_count=8
+# SkiaGL
+debug.hwui.renderer=skiagl
+debug.renderengine.backend=skiaglthreaded
+renderthread.skia.reduceopstasksplitting=true
+####################################
+# from variable ADDITIONAL_PRODUCT_PROPERTIES
+####################################
+ro.build.characteristics=default
+####################################
+# from variable PRODUCT_PRODUCT_PROPERTIES
+####################################
+ro.rice.maintainer=KSSRAO
+ro.rice.code=5.0
+ro.rice.packagetype=VANILLA
+ro.rice.releasetype=OFFICIAL
+ro.rice.version=HaloHalo
+ro.rice.chipset=
+ro.rice.build.version=riceDroid-12.1-2022081708-RMX1971-v5.0-VANILLA
+ro.rice.display.version=riceDroid-12.1-RMX1971-v5.0
+ro.rice.platform_release_codename=Sizzle
+ro.rice.build_security_patch=2022-08-05
+ro.ricelegal.url=https://www.manginasal.com/
+ro.iorapd.enable=false
+persist.sys.renderengine.backend=skiaglthreaded
+persist.sys.hwui.renderer=skiagl
+persist.sys.renderthread.skia.reduceopstasksplitting=true
+persist.sys.fw.bg_apps_limit=60
+ro.com.google.ime.kb_pad_port_b=1
+ro.com.google.ime.kb_pad_port_l=7
+ro.com.google.ime.kb_pad_port_r=7
+ro.com.google.ime.kb_pad_land_l=14
+ro.com.google.ime.kb_pad_land_r=14
+ro.input.video_enabled=false
+ro.sf.blurs_are_expensive=1
+ro.surface_flinger.supports_background_blur=1
+ro.launcher.blur.appLaunch=0
+arm64.memtag.process.system_server=off
+dalvik.vm.dex2oat64.enabled=true
+ro.config.notification_sound=oneplus.ogg
+ro.config.alarm_alert=into_the_night.ogg
+ro.support_one_handed_mode=true
+ro.config.ringtone=into_the_night.ogg
+persist.device_config.runtime_native_boot.iorap_readahead_enable=false
+# Auto-added by post_process_props.py
+persist.sys.usb.config=none
+# end of file
