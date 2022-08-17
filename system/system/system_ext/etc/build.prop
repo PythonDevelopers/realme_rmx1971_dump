@@ -1,0 +1,30 @@
+####################################
+# from generate-common-build-props
+# These properties identify this partition image.
+####################################
+ro.product.system_ext.brand=Realme
+ro.product.system_ext.device=RMX1971
+ro.product.system_ext.manufacturer=Realme
+ro.product.system_ext.model=Realme 5 Pro
+ro.product.system_ext.name=corvus_RMX1971
+ro.system_ext.build.date=Tue Aug 16 08:53:55 UTC 2022
+ro.system_ext.build.date.utc=1660640035
+ro.system_ext.build.fingerprint=google/raven/raven:12/SQ3A.220705.003.A1/8672226:user/release-keys
+ro.system_ext.build.id=SQ3A.220705.004
+ro.system_ext.build.tags=release-keys
+ro.system_ext.build.type=user
+ro.system_ext.build.version.incremental=1660640050
+ro.system_ext.build.version.release=12
+ro.system_ext.build.version.release_or_codename=12
+ro.system_ext.build.version.sdk=32
+####################################
+# from variable PRODUCT_SYSTEM_EXT_PROPERTIES
+####################################
+ro.sf.blurs_are_expensive=1
+ro.surface_flinger.supports_background_blur=1
+ro.launcher.blur.appLaunch=0
+arm64.memtag.process.system_server=off
+dalvik.vm.dex2oat64.enabled=true
+# Auto-added by post_process_props.py
+persist.sys.usb.config=none
+# end of file

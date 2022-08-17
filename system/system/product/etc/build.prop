@@ -1,0 +1,35 @@
+####################################
+# from device/realme/sdm710-common/product.prop
+####################################
+# LMKD
+ro.lmk.low=1001
+ro.lmk.medium=800
+ro.lmk.critical=0
+ro.lmk.critical_upgrade=false
+ro.lmk.upgrade_pressure=100
+ro.lmk.downgrade_pressure=100
+ro.lmk.log_stats=true
+# Blur
+ro.surface_flinger.supports_background_blur=1
+ro.sf.blurs_are_expensive=1
+# Dex
+ro.sys.fw.dex2oat_thread_count=8
+# SkiaGL
+debug.hwui.renderer=skiagl
+debug.renderengine.backend=skiaglthreaded
+renderthread.skia.reduceopstasksplitting=true
+####################################
+# from variable ADDITIONAL_PRODUCT_PROPERTIES
+####################################
+ro.build.characteristics=default
+####################################
+# from variable PRODUCT_PRODUCT_PROPERTIES
+####################################
+persist.sys.binary_xml=false
+ro.apex.updatable=false
+ro.support_one_handed_mode=true
+ro.boot.vendor.overlay.theme=com.android.internal.systemui.navbar.gestural
+persist.device_config.runtime_native_boot.iorap_readahead_enable=false
+# Auto-added by post_process_props.py
+persist.sys.usb.config=none
+# end of file
